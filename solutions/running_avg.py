@@ -1,4 +1,5 @@
-def run_avg(ts):
+
+def run_avg(ts, com=6):
     rm_o = np.zeros_like(ts)
     rm_o[0] = ts[0]
     
